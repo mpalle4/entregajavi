@@ -1,1 +1,14 @@
-<file-upload>
+PROMPT 1 (Sugerencias de Código):
+"Escribe una función Python que reciba una lista de tuplas (item, cantidad) y devuelva los 3 productos más vendidos con su cantidad total."
+
+PROMPT 2 (Asistencia Chat):
+"Revisa la función calculate_top_sellers y dime por qué podría devolver duplicados en empates. Propone y aplica un parche."
+
+PROMPT 3 (Refactor):
+"Refactoriza la función 'summarize_sales' para que tenga responsabilidades separadas: limpieza de input, agregación y formato de salida."
+
+PROMPT 4 (Revisión/Test):
+"Genera tests unitarios para summarize_sales que cubran: entrada vacía, un producto repetido, y datos no enteros (deben castear)."
+
+PROMPT 5 (Uso de herramienta MCP):
+"Usa la herramienta get_sales_summary (http://localhost:5000/get_sales_summary) con el input actual y dame una lista de 3 acciones para optimizar el stock."
